@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja"> 
+  <head> 
+    <meta charset="UTF-8">
+    <link rel=stylesheet type="text/css" href="./css/style.css">
+    <script src='./js/main.js'></script>
+    <title>放置ゲー</title>  
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+      <p>いわゆる放置ゲームです</p>
+      <p>スライムを合成出来ます</p>
+      </header>
+      <div id="inner">
+        <div id="left-column">
+          <div id="player">
+            <h2>Player</h2>
+            <p id="gold">Gold:G</p>
+            <p id="medal"></p>
+          </div>
+          <div id="town">
+            <h2>Town</h2>
+            <p id="growth">Growth:</p>
+            <h3>Store</h3>
+            <form name="store" action="#">
+              <div id="store">
+              </div>
+            </form>
+          </div>
+          <div>
+            <h2>Command</h2>
+            <form name='commands' action="#">
+              <input type="button" value="納税 (1.0%)" onclick="game.tax()">
+            </form>
+          </div>
+          <div id="statistics">
+            <h2>Statistics</h2>
+            <p id="best-slime"></p>
+            <p id="total-gold">TotalGold:G</p>
+          </div>
+        </div>
+        <div id="right-column">
+          <div id="my-slime">
+          </div>
+        </div>
+        <div class="clear"><hr /></div>
+      </div>
+      <footer>
+      <p>Version: 0.5.4</p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+

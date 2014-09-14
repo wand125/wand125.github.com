@@ -1,0 +1,33 @@
+#statistics p{
+  font-size: 75%;
+}
+
+#inner {
+  margin: 0 10px;
+}
+
+footer {
+  font-size: 75%;
+}
+
+#wrap {
+width: 960px;
+}
+
+#left-column {
+  float: left;
+  width: 480px;
+}
+
+#right-column {
+  float: right;
+  width: 400px;
+}
+
+.clear {
+  clear: both;
+}
+.clear hr {
+  display:none;
+}
+
